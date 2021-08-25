@@ -1,0 +1,7 @@
+scalinglpminit	:	PASSED
+40.1	:	FAILED
+40.2	:	FAILED
+40.3	:	FAILED
+40.4	:	FAILED
+40.5	:	FAILED
+40.6	:	FAILED
