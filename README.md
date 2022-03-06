@@ -1,11 +1,11 @@
 # Usage
-Download `parser.py` and place it in a particular `Report` directory which contains `report.txt` and `TestcaseStatusList.txt`.
+Download `parser.py` and place it in a particular module's `Report` directory which contains `report.txt` and `TestcaseStatusList.txt`.
 
 Execute the script using:
 
 ### `python3 parser.py`
 
-Runs the app and produces a list of TCL scripts which have failed due to infrastructure issues.
+Produces a list of TCL scripts for the batch which have failed due to infrastructure issues or a message indicating no infrastructure failures.
 
 #### `Note`: 
 The accuracy of the result is dependent on both the `TestcaseStatusList.txt` and `report.txt`, i.e, all scripts present in `TestcaseStatusList.txt` should be properly reflected in the test titles of `report.txt`. 
@@ -53,7 +53,7 @@ When testcase titles are not properly reflected in `report.txt`, the below outpu
 `2.1: {'Server unreachable.'}` <br />
 `2.2.5: {'Traffic not received. Please check if any of the testbed ports are down.'}` <br />
 
-In this case, the failures may span scripts until the next script with the title reflected properlty is encountered.
+In this case, the failures may span multiple scripts until the next script with the title reflected properlty is encountered.
 
 
 
