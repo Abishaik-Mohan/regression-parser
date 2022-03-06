@@ -53,7 +53,7 @@ When testcase titles are not properly reflected in `report.txt`, the below outpu
 `2.1: {'Server unreachable.'}` <br />
 `2.2.5: {'Traffic not received. Please check if any of the testbed ports are down.'}` <br />
 
-In this case, the failures may span multiple scripts until the next script with the title reflected properly is encountered.
+In this case, the failures may span multiple scripts until the next script with the title reflected properly is encountered. Hence, the result might need to be cross-confirmed.
 
 
 
